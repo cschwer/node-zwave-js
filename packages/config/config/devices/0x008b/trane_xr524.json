@@ -13,6 +13,13 @@
 		"min": "0.0",
 		"max": "255.255"
 	},
+	"associations": {
+		"1": {
+			"label": "Reports",
+			"maxNodes": 1,
+			"isLifeline": true
+		}
+	},
 	"paramInformation": [
 		{
 			"#": "1",
@@ -83,6 +90,10 @@
 				{
 					"label": "Electric",
 					"value": 1
+				},
+				{
+					"label": "Hydronic",
+					"value": 2
 				}
 			]
 		},
